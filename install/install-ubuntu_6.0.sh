@@ -400,7 +400,7 @@ mkdir -p /www/wwwlogs
 mkdir -p /www/backup/database
 mkdir -p /www/backup/site
 
-wget -O panel.zip https://raw.githubusercontent.com/cq99/bt-6.9.8-pro/master/install/src/panel6.zip/install/src/panel6.zip -T 10
+wget -O panel.zip https://raw.githubusercontent.com/cq99/bt-6.9.8-pro/master/install/src/panel6.zip -T 10
 wget -O /etc/init.d/bt $download_Url/install/src/bt6.init -T 10
 if [ -f "$setup_path/server/panel/data/default.db" ];then
 	if [ -d "/$setup_path/server/panel/old_data" ];then
