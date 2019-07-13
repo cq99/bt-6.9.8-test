@@ -462,7 +462,7 @@ if [ ! -f "/usr/bin/unzip" ];then
 	#rm -f /etc/yum.repos.d/epel.repo
 	yum install unzip -y
 fi
-wget -O panel.zip https://raw.githubusercontent.com/cq99/bt-6.9.8-pro/master/install/src/panel6.zip/install/src/panel6.zip -T 10
+wget -O panel.zip https://raw.githubusercontent.com/cq99/bt-6.9.8-pro/master/install/src/panel6.zip -T 10
 wget -O /etc/init.d/bt $download_Url/install/src/bt6.init -T 10
 if [ -f "$setup_path/server/panel/data/default.db" ];then
 	if [ -d "/$setup_path/server/panel/old_data" ];then
